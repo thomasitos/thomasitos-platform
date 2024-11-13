@@ -17,25 +17,34 @@ body{
 
 .item{
 	background: red;
-	object-fit: contain;
 }
 
 .item-1{
 	background: yellow;	
 	object-fit: contain;
+	width: 400px;
+	height: 600px;
 }
 
 .item-2{
 	background: blue;
-	object-fit: contain;	
+	object-fit: fill;	
+	width: 400px;
+	height: 600px;
 }
 
 .item-3{
 	background: green;	
+	object-fit: fill;	
+	width: 400px;
+	height: 600px;
 }
 
 .item-4{
 	background: orange;	
+	object-fit: fill;	
+	width: 400px;
+	height: 600px;
 }
 
 .item-5{
