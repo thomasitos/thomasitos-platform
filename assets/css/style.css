@@ -17,17 +17,17 @@ body{
 
 .item{
 	background: red;
-	object-fit: cover;
+	object-fit: contain;
 }
 
 .item-1{
 	background: yellow;	
-	object-fit: cover;
+	object-fit: contain;
 }
 
 .item-2{
 	background: blue;
-	object-fit: cover;	
+	object-fit: contain;	
 }
 
 .item-3{
