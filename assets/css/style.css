@@ -7,7 +7,6 @@ body{
 	font-family: "CompagnonLight";
 	background-color: black;
 	overflow: hidden;
-	min-height: 100vh; /* Use min-height instead of height */
     display: flex; /* Add this */
     flex-direction: column; /* Add this */
 }
@@ -19,8 +18,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px 10px;
     width: 100vw;
-    min-height: 100vh;
-    flex: 1;
+    height: 100%;
 
 }
 
