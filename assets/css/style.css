@@ -9,14 +9,15 @@ body{
 
 .container{
 	display: grid;
-	grid-template-rows: repeat(3, minmax(200px, 1fr)); 
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
+	grid-template-rows: repeat(3, minmax(0px, 1fr)); 
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
     grid-gap: 10px 10px;
 
 }
 
 .item{
 	background: red;
+	object-fit: cover;
 }
 
 .item-1{
