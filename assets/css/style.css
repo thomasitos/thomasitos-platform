@@ -22,10 +22,12 @@ body{
 
 .item-1{
 	background: yellow;	
+	object-fit: cover;
 }
 
 .item-2{
-	background: blue;	
+	background: blue;
+	object-fit: cover;	
 }
 
 .item-3{
