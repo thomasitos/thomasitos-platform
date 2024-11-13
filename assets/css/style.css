@@ -5,12 +5,13 @@
 
 body{
 	font-family: "CompagnonLight";
+	background-color: black;
 }
 
 .container{
 	display: grid;
-	grid-template-rows: repeat(3, minmax(0px, 1fr)); 
-    grid-template-columns: repeat(4, minmax(0px, 1fr));
+	grid-template-rows: 3fr 2fr 2fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px 10px;
 
 }
@@ -22,29 +23,29 @@ body{
 .item-1{
 	background: yellow;	
 	object-fit: contain;
-	width: 400px;
-	height: 600px;
+	width: 1fr;
+	height: 1fr;
 }
 
 .item-2{
 	background: blue;
 	object-fit: fill;	
-	width: 400px;
-	height: 600px;
+	width: 1fr;
+	height: 1fr;
 }
 
 .item-3{
 	background: green;	
 	object-fit: fill;	
-	width: 400px;
-	height: 600px;
+	width: 1fr;
+	height: 1fr;
 }
 
 .item-4{
 	background: orange;	
 	object-fit: fill;	
-	width: 400px;
-	height: 600px;
+	width: 1fr;
+	height: 1fr;
 }
 
 .item-5{
