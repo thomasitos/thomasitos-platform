@@ -18,11 +18,6 @@ body{
 
 }
 
-.item{
-	background: red;
-	width: 100%;
-	height: 100%;
-}
 
 .item img {
 	background: red;
@@ -78,5 +73,11 @@ body{
 
 .item-12{
 	background: grey;	
+}
+
+.item{
+	background: red;
+	width: 100%;
+	height: 100%;
 }
 
