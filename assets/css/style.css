@@ -3,81 +3,71 @@
 	padding: 0;
 }
 
-body{
-	font-family: "CompagnonLight";
-	background-color: black;
+body {
+  font-family: Arial;
+  background: red;
+  color: white;
+  display: block;
+  font-size: 16px;
 }
 
-.container{
-	display: grid;
-	grid-template-rows: 9fr 4fr 4fr; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px 10px;
-    width: 100vw;
-    height: 100vh;
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  position: relative;
+}
 
+.item-vert {
+	flex: 1;
+	transition: flex 0.3s ease;
+}
+
+.item-hor {
+	flex: 1;
+	transition: flex 0.3s ease;
+}
+
+.item-text {
+	flex: 1;
+	transition: flex 0.3s ease;
+	padding: 5px;
+}
+
+.item-vert img {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: relative;
+}
+
+.item-hor img {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: relative;
 }
 
 
-.item img {
-	background: red;
-	object-fit: fill;
-	width: 100%;
-	height: 100%;
+.container:hover .item-vert {
+	flex: 0.5;
 }
 
-.item-1{
-	background: yellow;	
-
+.container:hover .item-hor {
+	flex: 0.5;
 }
 
-.item-2{
-	background: blue;
+.container:hover .item-text {
+	flex: 0.5;
 }
 
-.item-3{
-	background: green;	
+
+.container .item-vert:hover {
+  z-index: 1;
+  flex: 2;
 }
 
-.item-4{
-	background: orange;	
-}
-
-.item-5{
-	background: violet;	
-}
-
-.item-6{
-	background: yellowgreen;	
-}
-
-.item-7{
-	background: orangered;	
-}
-
-.item-8{
-	background: blueviolet;	
-}
-
-.item-9{
-	background: turquoise;	
-}
-
-.item-10{
-	background: mediumvioletred;	
-}
-
-.item-11{
-	background: brown;	
-}
-
-.item-12{
-	background: grey;	
-}
-
-.item{
-	background: red;
-	width: 100%;
-	height: 100%;
-}
-
+.container .item-hor:hover {
+  z-index: 1;
+  flex: 3;
